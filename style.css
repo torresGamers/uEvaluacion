@@ -247,5 +247,17 @@
         /* left: 100px; */
         display: block;
     }
+    .imagen .boton{
+        padding: 0;
+    }
+    .footer .items {        
+      width: 90%;  
+    }
+    .footer .iconos ul{
+        display: block;        
+    }
+    .footer .iconos ul li{
+        padding: 5px 0;
+    }
     
 }
