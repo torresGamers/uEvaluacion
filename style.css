@@ -1,0 +1,244 @@
+*{padding: 0;
+    margin: 0;
+    font-family: 'exo 2';
+}
+.contenedor-titulo{
+    display: block;
+    
+    /* border: 1px solid; */
+    
+}
+.contenedor-titulo .titulo{
+    font-family: 'exo 2';
+    letter-spacing: 4px;
+    color: rgb(78, 72, 72);
+    text-align: center;
+    width: 100%;
+    margin: 10px 0px;
+    font-size: 20px;
+    padding: 25px 0;
+}
+.contenedor-titulo .menu{
+    display: flex;
+    /* width: 80%; */
+    margin: auto;
+    max-width: 920px;
+    justify-content: space-evenly;
+    padding-bottom: 40px;
+    font-size: 18px;
+}
+.contenedor-titulo .menu button{
+    display: flex;
+     border: 18px;
+}
+.contenedor-titulo .menu input{
+    outline: none; 
+    border:none;
+    font-size: 18px;
+    padding-left: 2px;
+}
+.contenedor-titulo .menu form{
+    flex: auto;
+   width: 20px;
+}
+.contenedor-titulo .menu i{
+    font-size: 18px;
+    padding: 0;
+}
+.contenedor-titulo .menu .items ul{
+    list-style: none;
+    display: flex;   
+}
+/* .contenedor-titulo .menu .items  */
+.logo i{
+    font-size: 18px;
+}
+
+.contenedor-titulo li{
+    flex: auto;
+    padding: 0px 10px;
+    font-weight: 300;
+}
+.contenedor-titulo .menu .naranja{
+    color: orange;
+}
+.contenedor-titulo .menu .logo ul{
+    list-style: none;
+    display: flex;
+}
+
+/* contenedor de imagen */
+.container-img{
+    background-position-y: -180px;
+    background-image: url(./img/portada.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-attachment:fixed; */
+    width: 100%;
+    height: 75vh;
+    
+}
+.container-img .logos{
+    position: absolute;
+    display: block;
+    right: 0px;
+   top:500px
+}
+.container-img .logos p{
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    cursor: pointer;
+}
+.contanedor-chat {
+    position: absolute;
+}
+.contenedor-chat .chat{
+    position: fixed;
+    right: 0px;
+    bottom: 100px;
+    border:1px solid;
+    padding: 8px 20px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 5px;
+}
+.fa-smile-beam:before {
+    /* content: "\f5b8"; */
+    padding-right: 20px;
+}
+.imgPolos .contenedor-img{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+ .img1, .img2, .img3, .img4{
+    width: 20%;
+}
+.imgPolos .contenedor-img img{
+    width: 100%;
+}
+.imagen p{
+   text-align: center;
+   padding: 5px 0px;
+   color: #666;
+}
+.imagen .boton{
+    border: 1px solid;
+    width: 100%;
+    padding: 10px ;
+}
+.imgPolos .titulo{
+    font-family: 'exo 2';
+    text-align: center;
+    color: rgb(78, 72, 72);
+    margin: 20px 0;
+    font-size: 20px;
+}
+.imgPolos .btn{
+    
+    margin: auto;
+    width: 180px;
+   text-align: center;
+   border:1px solid;
+   padding: 10px 15px;
+   background: #000;
+   color: rgb(228, 224, 224);
+   margin-bottom: 10px;
+}
+.imgPolos .contenedor-img{
+    padding-bottom: 50px;
+}
+.footer .titulo{
+    font-family: 'exo 2';
+    color: rgb(78, 72, 72);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 20px;
+}
+.footer .items{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    line-height: 30px;
+}
+.footer ul{
+    list-style: none; 
+     color: #666;
+}
+.footer .iconos ul{
+    display: flex;
+   color: #000;
+}
+.footer .iconos li{
+    font-size: 30px;
+    padding: 0px 10px;
+}
+
+.footer h2{
+    text-align: center;
+    color: rgb(53, 52, 52);
+}
+.footer form{
+    /* border: 1px solid; */
+    text-align: center;
+    margin: 20px 0;
+}
+.footer form label input{
+    display: inline-block;
+    width: 20%;
+    height: 30px;  
+}
+.footer form  input[type='submit']{
+    /* display: block; */
+    color:rgb(228, 224, 224);
+    background-color: black;
+    height: 30px;
+    width: 100px;
+    border-radius: 0;
+}
+.footer-parafo{
+    text-align: center;
+    color: #666;
+}
+
+@media only screen and (max-width:576px) {
+        .container-img{
+            background-position-y:0px ;
+        }
+        .contenedor-titulo .menu {
+            position: absolute;
+             display: block;
+             background-color: rgb(0, 0,0,0.5);
+             width: 150px;
+             margin-left: 0px;
+        
+        }
+      
+        /* .contenedor-titulo #menu{
+        display: block;
+        width: 50px;
+        height: 40px;
+        background:red;
+    } */
+    .contenedor-titulo .menu .items ul {
+        display: block;
+        
+    }
+    .contenedor-titulo .menu .items ul li{
+        padding:10px 10px;
+    }
+    .contenedor-titulo .menu .logo ul li{
+        padding:10px 10px;
+    }
+    .contenedor-titulo .menu .logo ul {
+       display: block;
+       /* padding: 10px 0; */
+    }
+    .contenedor-titulo .menu form{
+        padding-left: 325px;
+    }
+    
+}
