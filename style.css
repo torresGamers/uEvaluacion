@@ -237,8 +237,15 @@
        display: block;
        /* padding: 10px 0; */
     }
-    .contenedor-titulo .menu form{
-        padding-left: 325px;
+    /* .contenedor-titulo .menu .form{
+        padding-left: 110px;
+    } */
+    .contenedor-titulo .menu .form {
+        /* padding-left: 110px; */
+        position: absolute;
+        top: -26px;
+        /* left: 100px; */
+        display: block;
     }
     
 }
